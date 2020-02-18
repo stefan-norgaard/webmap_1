@@ -1,0 +1,109 @@
+Last login: Mon Feb 17 17:33:54 on ttys000
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+dyn-160-39-139-151:~ stefannorgaard$ ls
+Applications		Dropbox (Old (1))	Music
+Creative Cloud Files	Dropbox (Old (2))	Pictures
+Desktop			Dropbox (Old)		Public
+Documents		Google Drive		Sites
+Downloads		Library			Zotero
+Dropbox			Movies			webmap_1
+dyn-160-39-139-151:~ stefannorgaard$ cd Desktop
+dyn-160-39-139-151:Desktop stefannorgaard$ ls
+Estefani Photos		MacBook_Air_Temp	Solstice Client.app
+GIS_Git_Hub		Relocated Items		Stefan Norgaard
+dyn-160-39-139-151:Desktop stefannorgaard$ cd GIS_Git_Hub
+dyn-160-39-139-151:GIS_Git_Hub stefannorgaard$ ls
+webmap_1
+dyn-160-39-139-151:GIS_Git_Hub stefannorgaard$ cd webmap_1
+dyn-160-39-139-151:webmap_1 stefannorgaard$ ls
+README.md	index.html	map.jsx		map.mjs		style.css
+dyn-160-39-139-151:webmap_1 stefannorgaard$ python -m SimpleHTTPServer
+Serving HTTP on 0.0.0.0 port 8000 ...
+127.0.0.1 - - [17/Feb/2020 17:37:22] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 17:37:22] "GET /style.css HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 17:37:22] "GET /map.jsx HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 17:41:57] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 17:41:57] "GET /style.css HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 17:41:57] "GET /map.jsx HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 17:42:30] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 17:43:59] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 17:43:59] "GET /style.css HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 17:43:59] "GET /map.jsx HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 19:09:25] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 19:09:25] "GET /style.css HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 19:09:25] "GET /map.jsx HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 19:11:11] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 19:11:32] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 19:12:22] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 19:12:28] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 19:13:50] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 19:18:40] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 19:18:40] "GET /map.jsx HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 19:19:47] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 19:19:47] "GET /style.css HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 19:19:47] "GET /map.jsx HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 19:20:17] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 19:20:17] "GET /map.jsx HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 19:20:52] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 19:20:53] "GET /map.jsx HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 19:28:30] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 19:28:30] "GET /map.jsx HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 19:29:26] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 19:29:27] "GET /map.jsx HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 19:29:28] code 404, message File not found
+127.0.0.1 - - [17/Feb/2020 19:29:28] "GET /data/nyc_harlemriverstreettrees_4326.geojson HTTP/1.1" 404 -
+127.0.0.1 - - [17/Feb/2020 19:30:55] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 19:30:55] "GET /map.jsx HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 19:30:57] "GET /data/NYC_Street_Trees.geojson HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 19:31:21] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 19:31:21] "GET /style.css HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 19:31:21] "GET /map.jsx HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 19:34:33] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 19:34:33] "GET /map.jsx HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 19:34:35] "GET /data/NYC_Street_Trees.geojson HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 19:37:31] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 19:37:32] "GET /map.jsx HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 19:37:33] "GET /data/NYC_Street_Trees.geojson HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 19:38:11] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 19:38:11] "GET /map.jsx HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 19:38:13] "GET /data/NYC_Street_Trees.geojson HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 19:40:27] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 19:40:27] "GET /map.jsx HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 19:40:29] "GET /data/NYC_Street_Trees.geojson HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 19:40:29] "GET /data/Harlem_Buildings.geojson HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 19:40:49] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 19:40:49] "GET /map.jsx HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 19:41:43] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 19:41:43] "GET /map.jsx HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 19:41:44] "GET /data/NYC_Street_Trees.geojson HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 19:41:44] "GET /data/Harlem_Buildings.geojson HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 19:43:59] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 19:43:59] "GET /style.css HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 19:43:59] "GET /map.jsx HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 19:44:00] "GET /data/NYC_Street_Trees.geojson HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 19:44:00] "GET /data/Harlem_Buildings.geojson HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 19:45:21] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 19:45:21] "GET /map.jsx HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 19:45:22] "GET /data/NYC_Street_Trees.geojson HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 19:45:22] "GET /data/Harlem_Buildings.geojson HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 19:53:37] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 19:53:37] "GET /map.jsx HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 19:53:38] "GET /data/NYC_Street_Trees.geojson HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 19:53:38] "GET /data/Harlem_Buildings.geojson HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 19:53:39] "GET /data/nypl_map-warper-harlem-river.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 19:54:07] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 19:54:07] "GET /map.jsx HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 19:54:08] "GET /data/nypl_map-warper-harlem-river.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 19:54:56] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 19:54:56] "GET /map.jsx HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 19:54:58] "GET /data/nypl_map-warper-harlem-river.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 19:56:09] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 19:56:09] "GET /map.jsx HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 19:56:10] "GET /data/NYC_Street_Trees.geojson HTTP/1.1" 200 -
+127.0.0.1 - - [17/Feb/2020 19:56:10] "GET /data/Harlem_Buildings.geojson HTTP/1.1" 200 -
+ls
+git add -A
+
