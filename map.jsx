@@ -66,24 +66,24 @@ map.addSource('nypl',{
     }
   })
   
-//  map.addSource('bronx_map',{
-//    'type':'image',
-//    'url': './data/nypl_map-warper-harlem-river.jpg',
-//    'coordinates': [
-//      [-73.9449181508732636,40.8145796032861199],
-//      [-73.9217935462128537,40.8145796032861199],
-//      [-73.9217935462128537,40.7983542111030317],
-//      [-73.9449181508732636,40.7983542111030317]
-//    ]
-//  });
-//  map.addLayer({
-//    'id':'map_overlay',
-//    'type':'raster',
-//    'source':'bronx_map',
-//    'paint':{
-//      'raster-opacity':0.85
-//    }
-//  });
+map.addSource('bronx_map',{
+    'type':'image',
+    'url': './data/nypl_map-warper-harlem-river.jpg',
+    'coordinates': [
+      [-73.9449181508732636,40.8145796032861199],
+      [-73.9217935462128537,40.8145796032861199],
+      [-73.9217935462128537,40.7983542111030317],
+      [-73.9449181508732636,40.7983542111030317]
+    ]
+  });
+  map.addLayer({
+    'id':'map_overlay',
+    'type':'raster',
+    'source':'bronx_map',
+    'paint':{
+      'raster-opacity':0.85
+    }
+  });
 
 });
 
